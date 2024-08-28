@@ -1,4 +1,4 @@
-package com.example.todo_list.Domain
+package com.example.todo_list.Presentation
 
 import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateListOf
