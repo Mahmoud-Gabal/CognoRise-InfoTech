@@ -1,9 +1,10 @@
-package com.example.todo_list.Domain.Db
+package com.example.todo_list.Domain
 
 import androidx.room.Dao
 import androidx.room.Delete
 import androidx.room.Query
 import androidx.room.Upsert
+import com.example.todo_list.Data.TaskInfo
 import kotlinx.coroutines.flow.Flow
 
 
@@ -15,6 +16,7 @@ interface Dao {
 
     @Delete
     suspend fun deleteTask(taskInfo: TaskInfo)
+
 
     @Delete
     suspend fun deleteTasksList(taskInfo: List<TaskInfo>)

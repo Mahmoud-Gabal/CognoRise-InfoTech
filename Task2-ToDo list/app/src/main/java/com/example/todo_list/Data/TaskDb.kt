@@ -1,7 +1,8 @@
-package com.example.todo_list.Domain.Db
+package com.example.todo_list.Data
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
+import com.example.todo_list.Domain.Dao
 
 
 @Database(

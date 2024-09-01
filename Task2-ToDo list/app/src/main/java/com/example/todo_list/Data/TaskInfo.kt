@@ -1,4 +1,4 @@
-package com.example.todo_list.Domain.Db
+package com.example.todo_list.Data
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

@@ -1,19 +1,20 @@
-package com.example.todo_list
+package com.example.todo_list.Presentation.View
 
+import android.os.Build
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.SystemBarStyle
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.activity.viewModels
+import androidx.annotation.RequiresApi
 import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.graphics.toArgb
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.room.Room
-import com.example.todo_list.Domain.Db.TaskDb
-import com.example.todo_list.Presentation.MainViewModel
-import com.example.todo_list.Presentation.TaskScreen
+import com.example.todo_list.Data.TaskDb
+import com.example.todo_list.Presentation.Intent.MainViewModel
 import com.example.todo_list.ui.theme.TaskScreenColor
 import com.example.todo_list.ui.theme.ToDoListTheme
 
@@ -36,6 +37,7 @@ class MainActivity : ComponentActivity() {
         }
 
     )
+    @RequiresApi(Build.VERSION_CODES.P)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge(
@@ -46,14 +48,14 @@ class MainActivity : ComponentActivity() {
         )
         setContent { 
             ToDoListTheme {
-                val taskList = mainViewModel.taskList.collectAsState().value
-                val showDialog = mainViewModel.showDialog.value
-                val checklist = mainViewModel.checkList
+                val taskList = mainViewModel.Tasks.collectAsState().value
+                val state = mainViewModel.state.collectAsState().value
+                val checkList = mainViewModel.checkList
                 TaskScreen(
                     tasks = taskList,
-                    showDialog = showDialog,
                     onEvent = mainViewModel::onEvent,
-                    checkedList = checklist
+                    state = state,
+                    checkList = checkList
                 )
             }
         }
