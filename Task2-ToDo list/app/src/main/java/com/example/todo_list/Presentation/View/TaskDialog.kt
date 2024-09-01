@@ -1,6 +1,5 @@
 package com.example.todo_list.Presentation.View
 
-import android.widget.Toast
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -13,7 +12,6 @@ import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Icon
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextField
 import androidx.compose.material3.TextFieldDefaults
@@ -28,8 +26,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.unit.dp
 import com.example.todo_list.Data.TaskInfo
-import com.example.todo_list.Presentation.Model.CustomSaver
-import com.example.todo_list.Presentation.Model.ToDoEvents
+import com.example.todo_list.Presentation.Intent.ToDoEvents
 import com.example.todo_list.R
 import com.example.todo_list.ui.theme.TaskScreenColor
 

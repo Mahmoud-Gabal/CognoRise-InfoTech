@@ -62,7 +62,7 @@ import coil.decode.GifDecoder
 import coil.decode.ImageDecoderDecoder
 import coil.request.ImageRequest
 import com.example.todo_list.Data.TaskInfo
-import com.example.todo_list.Presentation.Model.ToDoEvents
+import com.example.todo_list.Presentation.Intent.ToDoEvents
 import com.example.todo_list.Presentation.Model.ToDoStates
 import com.example.todo_list.R
 import com.example.todo_list.ui.theme.TaskScreenColor

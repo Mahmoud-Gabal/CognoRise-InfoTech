@@ -1,4 +1,4 @@
-package com.example.todo_list.Presentation.Model
+package com.example.todo_list.Presentation.Intent
 
 import com.example.todo_list.Data.TaskInfo
 

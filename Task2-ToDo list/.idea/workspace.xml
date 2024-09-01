@@ -9,7 +9,15 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f34c3b0f-126e-4ac3-b463-02f48dfe62e1" name="Changes" comment="" />
+    <list default="true" id="f34c3b0f-126e-4ac3-b463-02f48dfe62e1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/todo_list/Presentation/Intent/MainViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/todo_list/Presentation/Intent/MainViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/todo_list/Presentation/Model/CustomSaver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/todo_list/Presentation/View/CustomSaver.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/todo_list/Presentation/Model/ToDoEvents.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/todo_list/Presentation/Intent/ToDoEvents.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/todo_list/Presentation/View/EditDialog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/todo_list/Presentation/View/EditDialog.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/todo_list/Presentation/View/SearchBar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/todo_list/Presentation/View/SearchBar.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/todo_list/Presentation/View/TaskDialog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/todo_list/Presentation/View/TaskDialog.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/todo_list/Presentation/View/ToDoScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/todo_list/Presentation/View/ToDoScreen.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,6 +98,7 @@
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="com.example.todo_list.Presentation.View" />
+      <recent name="com.example.todo_list.Presentation.Intent" />
       <recent name="com.example.todo_list.Domain" />
       <recent name="com.example.todo_list.Data" />
     </key>

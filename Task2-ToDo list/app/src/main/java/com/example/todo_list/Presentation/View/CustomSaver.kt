@@ -1,4 +1,4 @@
-package com.example.todo_list.Presentation.Model
+package com.example.todo_list.Presentation.View
 
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf
