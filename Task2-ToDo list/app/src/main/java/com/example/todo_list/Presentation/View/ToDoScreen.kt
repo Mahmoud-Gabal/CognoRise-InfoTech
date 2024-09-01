@@ -273,11 +273,7 @@ fun TaskScreen(
                                             if (it) {
                                                 onEvent(ToDoEvents.addToCheckList(task))
                                             } else {
-                                                if (checkList.contains(task) && checkList.size == 1) {
-                                                    onEvent(ToDoEvents.removeFromCheckList(task))
-                                                } else {
-                                                    onEvent(ToDoEvents.removeFromCheckList(task))
-                                                }
+                                                onEvent(ToDoEvents.removeFromCheckList(task))
                                             }
                                         }
                                     )
