@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="homeBackground">#f7f7f7</color>
+    <color name="cardBackground">#DCDBDB</color>
+    <color name="alarmBackground">#FFFFFFFF</color>
+    <color name="floatingButtonColor">#FFFFFFFF</color>
+    <color name="selectedPeriod">#DCDBDB</color>
+    <color name="unSelectedPeriod">#FFFFFFFF</color>
+    <color name="periodSelectorUnselectedContentColor">#FF000000</color>
+    <color name="periodSelectorSelectedContentColor">#FF000000</color>
+    <color name="timeSelectorUnselectedContentColor">#FF000000</color>
+    <color name="timeSelectorSelectedContentColor">#FF000000</color>
+    <color name="cancelButtonContent">#FF000000</color>
+    <color name="cancelButtonContainer">#DCDBDB</color>
+    <color name="timeOnColor">#FF000000</color>
+    <color name="timeOffColor">#777777</color>
+    <color name="desOffColor">#cccccc</color>
+    <color name="desOnColor">#666666</color>
+    <color name="checkedCard">#bbbbbb</color>
+    <color name="lightGray">#DCDBDB</color>
+    <color name="lightBlue">#3E7EFF</color>
+    <color name="lightBlueTR">#2B3E7EFF</color>
+    <color name="titleText">#FF000000</color>
+    <color name="currentTime">#FF000000</color>
+    <color name="currentDate">#555555</color>
+</resources>

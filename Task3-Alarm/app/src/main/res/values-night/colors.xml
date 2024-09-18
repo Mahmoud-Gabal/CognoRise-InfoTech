@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="homeBackground">#FF000000</color>
+    <color name="titleText">#FFFFFFFF</color>
+    <color name="cardBackground">#222222</color>
+    <color name="alarmBackground">#222222</color>
+    <color name="floatingButtonColor">#333333</color>
+    <color name="cancelButtonContent">#DCDBDB</color>
+    <color name="cancelButtonContainer">#333333</color>
+    <color name="timeOnColor">#FFFFFFFF</color>
+    <color name="timeOffColor">#777777</color>
+    <color name="desOffColor">#444444</color>
+    <color name="desOnColor">#999999</color>
+    <color name="checkedCard">#333333</color>
+    <color name="currentTime">#FFFFFFFF</color>
+    <color name="currentDate">#eeeeee</color>
+    <color name="selectedPeriod">#DCDBDB</color>
+    <color name="unSelectedPeriod">#222222</color>
+    <color name="periodSelectorUnselectedContentColor">#FFFFFFFF</color>
+    <color name="periodSelectorSelectedContentColor">#FF000000</color>
+    <color name="timeSelectorUnselectedContentColor">#FFFFFFFF</color>
+    <color name="timeSelectorSelectedContentColor">#FF000000</color>
+</resources>
